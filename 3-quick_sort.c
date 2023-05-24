@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * lomuto_partition - Partitions the array using the Lomuto scheme
+ * partition - Partitions the array using the Lomuto scheme
  * @array: The array to partition
  * @low: The starting index of the partition
  * @high: The ending index of the partition
@@ -47,6 +47,7 @@ int partition(int *array, int low, int high, size_t size)
  * @array: The array to be sorted
  * @low: Starting index of the partition
  * @high: Ending index of the partition
+ * @size: elements in the array
  */
 
 void quick_sort_recursive(int *array, int low, int high, size_t size)
