@@ -1,0 +1,3 @@
+Best case: O(n) - When the list is already sorted, and no or very few swaps are necessary
+Average case: O(n^2) - When the list is unsorted, and multiple swaps are needed to sort it
+Worst case: O(n^2) - When the list is sorted but in reverse order, and the maximum amount of swaps are necessary

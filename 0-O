@@ -1,0 +1,3 @@
+Best case: O(n) - When array already sorted, and no swaps are needed.
+Average case: O(n^2) - when the array is unsorted, and more than one pass or swaps are necessary
+Worst case: O(n^2) - When array is sorted in reverse order, multiple passes and swaps necessary
